@@ -24,7 +24,7 @@ body, a {
 }
 header {
   display: block;
-  height: 50px;
+  height: 75px;
 }
 
 nav, .legal-links {
@@ -33,14 +33,15 @@ nav, .legal-links {
 }
 
 nav a,  footer a {
-  margin-right: 10px;
+  margin-right: 15px;
+  font-size: 14px;  
 }
 
 main {
   position: absolute;
-  top: 50px;
+  top: 75px;
   width: 100%;
-  height: calc(100% - 180px);
+  height: calc(100% - 205px);
   margin: auto;
   text-align: center;
 }
@@ -63,6 +64,22 @@ footer {
   margin-bottom: 10px;
   border-bottom: 0.25px solid #ccc;
 }
+
+.country p {
+  display: inline;
+}
 .org-links {
   float: left;
+}
+
+a.no-deco  {
+  text-decoration: none;
+}
+
+.profile {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
 }
