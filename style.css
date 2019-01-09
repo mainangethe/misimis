@@ -3,6 +3,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: 'roboto', sans-sans-serif;
 }
 /* elements & tags */
 a {
@@ -19,6 +20,7 @@ body {
 
 body, a {
   color: hsl(0, 0%, 95%);
+  font-weight: 300;
 }
 header {
   display: block;
@@ -55,6 +57,7 @@ footer {
 /* classes */
 .country, .org-links {
   padding: 20px;
+  font-weight: bold;
 }
 .country {
   margin-bottom: 10px;
