@@ -1,0 +1,57 @@
+/* Reset */
+* { margin: 0; padding: 0; }
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* elements & tags */
+body {
+  background-color: hsl(0, 0%, 15%);
+}
+
+body, a {
+  color: hsl(0, 0%, 95%);
+}
+header {
+  display: block;
+  height: 50px;
+}
+
+nav, .legal-links {
+  padding: 20px;
+  float: right;
+}
+
+nav a,  footer a {
+  margin-right: 10px;
+}
+
+main {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: calc(100% - 180px);
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+/* classes */
+.country, .org-links {
+  padding: 20px;
+}
+.country {
+  margin-bottom: 10px;
+  border-bottom: 0.25px solid #ccc;
+}
+.org-links {
+  float: left;
+}
