@@ -5,6 +5,14 @@ html, body {
   width: 100%;
 }
 /* elements & tags */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   background-color: hsl(0, 0%, 15%);
 }
