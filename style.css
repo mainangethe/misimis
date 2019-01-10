@@ -6,20 +6,16 @@ html, body {
   font-family: 'roboto', sans-sans-serif;
 }
 /* elements & tags */
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
-a:hover {
-  text-decoration: underline;
-}
+a:hover { text-decoration: underline; }
 
 body {
   background-color: hsl(0, 0%, 15%);
 }
 
 body, a {
-  color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 85%);
   font-weight: 300;
 }
 header {
@@ -27,21 +23,19 @@ header {
   height: 75px;
 }
 
-nav, .legal-links {
-  padding: 20px;
-  float: right;
-}
+nav, .country, .org-links, .legal-links { padding: 15px; }
+nav, .legal-links { float: right; }
 
 nav a,  footer a {
   margin-right: 15px;
-  font-size: 14px;  
+  font-size: 14px;
 }
 
 main {
   position: absolute;
   top: 75px;
   width: 100%;
-  height: calc(100% - 205px);
+  height: calc(100% - 175px);
   margin: auto;
   text-align: center;
 }
@@ -51,30 +45,20 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    background-color: hsl(0,0%,12%);
+    color: hsl(0,0%,75%);
 }
 
 
-
-/* classes */
-.country, .org-links {
-  padding: 20px;
-  font-weight: bold;
-}
-.country {
-  margin-bottom: 10px;
-  border-bottom: 0.25px solid #ccc;
-}
+.country { border-bottom: 0.25px solid hsl(0,0%,30%); }
 
 .country p {
   display: inline;
+  font-weight: bold;
 }
-.org-links {
-  float: left;
-}
+.org-links { float: left; }
 
-a.no-deco  {
-  text-decoration: none;
-}
+a.no-deco  { text-decoration: none; }
 
 .profile {
   width: 32px;
